@@ -1,8 +1,8 @@
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/zoro910719/vue-mi-shop.git
-git push -u origin master
+git init  
+git add README.md  --将添加修改的 README.md文件 添加到待提交区
+git commit -m "first commit"   --提交修改  "first commit" 这是这次提交的描述
+git remote add origin https://github.com/zoro910719/vue-mi-shop.git  --将当前库与远程 github上的库关联
+git push -u origin master -- 提交修改到远程库
 
 
 
