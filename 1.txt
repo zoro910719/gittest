@@ -1,9 +1,14 @@
-git init  
-git add README.md  --将添加修改的 README.md文件 添加到待提交区
-git commit -m "first commit"   --提交修改  "first commit" 这是这次提交的描述
-git remote add origin https://github.com/zoro910719/vue-mi-shop.git  --将当前库与远程 github上的库关联
-git push -u origin master -- 提交修改到远程库
+cd d:/gittest
+
+git init  	-- 创建 git仓库
+git add 1.txt  --将添加修改的 1.txt 文件 提交到 暂存区
+git commit -m "update 1.txt file"   --提交暂存区的修改，  "update 1.txt file" 这是这次提交的描述
+
+git add .  --将所有修改提交到 暂存区
+
+git remote add origin https://github.com/zoro910719/gittest.git  --将当前库与远程 github上的库关联
+git push -u origin master -- 提交修改到远程库 。由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 
 
 
-git push origin master
+git push origin master -- 以后提交到远程库，直接用此脚本
