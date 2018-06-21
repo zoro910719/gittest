@@ -1,6 +1,6 @@
 打开 Git Bash
 
-cd d:/gittest
+cd d:/Git/gittest
 
 git init  	-- 创建 git仓库
 git add 1.txt  --将添加修改的 1.txt 文件 提交到 暂存区
