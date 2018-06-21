@@ -1,3 +1,5 @@
+打开 Git Bash
+
 cd d:/gittest
 
 git init  	-- 创建 git仓库
@@ -12,3 +14,7 @@ git push -u origin master -- 提交修改到远程库 。由于远程库是空的，我们第一次推送
 
 
 git push origin master -- 以后提交到远程库，直接用此脚本
+
+
+git clone https://github.com/zoro910719/hello-world -- 从远程库克隆到本地 （首先进入到本地的目标文件夹里）
+
